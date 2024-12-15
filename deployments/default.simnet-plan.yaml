@@ -55,6 +55,11 @@ plan:
             path: contracts/banking-integration.clar
             clarity-version: 2
         - emulated-contract-publish:
+            contract-name: credit-scoring_
+            emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
+            path: contracts/credit-scoring_.clar
+            clarity-version: 2
+        - emulated-contract-publish:
             contract-name: invoice-token
             emulated-sender: ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM
             path: contracts/invoice-token.clar
